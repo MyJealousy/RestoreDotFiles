@@ -22,3 +22,10 @@ mkdir "$CONFIG_DST"
 cp -r "$BACKUP/"* "$CONFIG_DST/"
 
 echo "Restored $choice"
+
+
+echo "Restart hyprland (y/n)"
+read confirm
+[ "$confirm" != "y" ] && exit 0
+
+hyprctl reload
