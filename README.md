@@ -7,7 +7,7 @@ cd Documents
 ```
 
 ```bash
-git clone link
+git clone https://github.com/MyJealousy/RestoreDotFiles.git
 ```
 
 Create backup
